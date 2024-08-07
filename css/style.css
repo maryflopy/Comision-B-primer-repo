@@ -1,0 +1,24 @@
+p {
+     background-color: red;
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: blue;
+
+}
+
+.ul, .li{
+    background-color: greenyellow;
+    color: blueviolet;
+}
+
+.h1, .h2{
+    background-color: lightcoral;
+    color: lawngreen;
+}
+
+/* colores de la pagina
+1 pink 
+2 white*/
