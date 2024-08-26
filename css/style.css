@@ -169,6 +169,62 @@ textarea{
     border-radius: 4px;
 }
 
+/* Blog -- galeria-- */
+
+.contenedor-Galeria{
+    display: flex;
+    width: 100vw;
+    height:auto;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+    margin: 10px;
+}
+.galeria h2 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.galeria img {
+    object-fit: cover;
+    opacity: .8;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    padding: 0px;
+}
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 2;
+    filter: contrast(120%);
+    box-shadow: 0 0 10px rgb(228, 115, 143);
+    border-radius: 10px;
+    transition: all .8s;
+
+}
+/*-- photos -- */
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    grid-auto-rows: 250px;
+    padding: 30px;
+    grid-gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
 /*--Pie de Pagina--*/
 .piedepagina{
     width: 100%;
